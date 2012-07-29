@@ -1,0 +1,17 @@
+{
+	"name": "frccore/userbundle",
+	"description": "FRCCore UserBundle",
+	"repositories": [
+	{
+		"type": "composer",
+		"url": "http://repos.fatrobinconsulting.com"
+	}
+    	],
+	"require": {
+		 "php": ">=5.3.3"
+	},
+	"autoload": {
+        "psr-0": {"FRCCore\\UserBundle": ""}
+    },
+    "target-dir": "FRCCore/UserBundle"
+}
